@@ -71,7 +71,7 @@ main {
     border-radius: 1em 1em 0 0 ;
 }
 .content {
-    padding: 1.5em;
+    padding: 1.5em 2em 1.5em 2em;
     display: block;
     align-items: center;
     text-align: center;
@@ -130,7 +130,15 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: var(--Dark);
+    background-color: var(--Desaturated);
+}
+
+a {
+    font-weight: 700;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 .cancel-order {
@@ -142,5 +150,16 @@ button:hover {
     color: gray;
     font-weight: 700;
     
+}
+
+
+@media only screen and (min-width:470px )
+
+{
+
+    main {
+        width: 470px;
+        margin: 0 auto;
+    }
 }
 
